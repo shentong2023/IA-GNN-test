@@ -1,0 +1,333 @@
+nohup: ignoring input
+Namespace(batch_size=100, dataset='diginetica', emb_size=100, epoch=30, epsilon=0.85, evaluate_k=[10, 20], l2=1e-05, lr=0.001, lr_dc=0.1, lr_dc_step=10, n_heads=3, n_intentions=3, patience=10, temp=0.1)
+--------------------------------------
+epoch 0
+lr: 0.001
+start training... 2022-04-14 15:02:49.653567
+	 train_loss : 46213.094
+this_epoch----
+recall@10:0.2780	 mrr@10:0.1155
+recall@20:0.3912	 mrr@20:0.1233
+best_result----
+recall@10:0.2780	 mrr@10:0.1155	 epoch:0,0
+recall@20:0.3912	 mrr@20:0.1233	 epoch:0,0
+--------------------------------------
+epoch 1
+lr: 0.001
+start training... 2022-04-14 15:10:30.131180
+	 train_loss : 34776.652
+this_epoch----
+recall@10:0.3160	 mrr@10:0.1307
+recall@20:0.4373	 mrr@20:0.1391
+best_result----
+recall@10:0.3160	 mrr@10:0.1307	 epoch:1,1
+recall@20:0.4373	 mrr@20:0.1391	 epoch:1,1
+--------------------------------------
+epoch 2
+lr: 0.001
+start training... 2022-04-14 15:18:12.131277
+	 train_loss : 29203.537
+this_epoch----
+recall@10:0.3284	 mrr@10:0.1379
+recall@20:0.4553	 mrr@20:0.1467
+best_result----
+recall@10:0.3284	 mrr@10:0.1379	 epoch:2,2
+recall@20:0.4553	 mrr@20:0.1467	 epoch:2,2
+--------------------------------------
+epoch 3
+lr: 0.001
+start training... 2022-04-14 15:25:48.715093
+	 train_loss : 27406.906
+this_epoch----
+recall@10:0.3368	 mrr@10:0.1424
+recall@20:0.4621	 mrr@20:0.1510
+best_result----
+recall@10:0.3368	 mrr@10:0.1424	 epoch:3,3
+recall@20:0.4621	 mrr@20:0.1510	 epoch:3,3
+--------------------------------------
+epoch 4
+lr: 0.001
+start training... 2022-04-14 15:33:28.577469
+	 train_loss : 26653.561
+this_epoch----
+recall@10:0.3368	 mrr@10:0.1433
+recall@20:0.4643	 mrr@20:0.1521
+best_result----
+recall@10:0.3368	 mrr@10:0.1433	 epoch:4,4
+recall@20:0.4643	 mrr@20:0.1521	 epoch:4,4
+--------------------------------------
+epoch 5
+lr: 0.001
+start training... 2022-04-14 15:41:08.146831
+	 train_loss : 26266.035
+this_epoch----
+recall@10:0.3432	 mrr@10:0.1457
+recall@20:0.4682	 mrr@20:0.1543
+best_result----
+recall@10:0.3432	 mrr@10:0.1457	 epoch:5,5
+recall@20:0.4682	 mrr@20:0.1543	 epoch:5,5
+--------------------------------------
+epoch 6
+lr: 0.001
+start training... 2022-04-14 15:48:50.840189
+	 train_loss : 26007.320
+this_epoch----
+recall@10:0.3412	 mrr@10:0.1449
+recall@20:0.4686	 mrr@20:0.1537
+best_result----
+recall@10:0.3432	 mrr@10:0.1457	 epoch:5,5
+recall@20:0.4686	 mrr@20:0.1543	 epoch:6,5
+--------------------------------------
+epoch 7
+lr: 0.001
+start training... 2022-04-14 15:56:34.108897
+	 train_loss : 25827.910
+this_epoch----
+recall@10:0.3417	 mrr@10:0.1459
+recall@20:0.4691	 mrr@20:0.1547
+best_result----
+recall@10:0.3432	 mrr@10:0.1459	 epoch:5,7
+recall@20:0.4691	 mrr@20:0.1547	 epoch:7,7
+--------------------------------------
+epoch 8
+lr: 0.001
+start training... 2022-04-14 16:04:16.461567
+	 train_loss : 25709.957
+this_epoch----
+recall@10:0.3396	 mrr@10:0.1447
+recall@20:0.4675	 mrr@20:0.1535
+best_result----
+recall@10:0.3432	 mrr@10:0.1459	 epoch:5,7
+recall@20:0.4691	 mrr@20:0.1547	 epoch:7,7
+--------------------------------------
+epoch 9
+lr: 0.001
+start training... 2022-04-14 16:11:58.735271
+	 train_loss : 25634.076
+this_epoch----
+recall@10:0.3442	 mrr@10:0.1458
+recall@20:0.4709	 mrr@20:0.1545
+best_result----
+recall@10:0.3442	 mrr@10:0.1459	 epoch:9,7
+recall@20:0.4709	 mrr@20:0.1547	 epoch:9,7
+--------------------------------------
+epoch 10
+lr: 0.0001
+start training... 2022-04-14 16:19:38.779919
+	 train_loss : 23718.129
+this_epoch----
+recall@10:0.3557	 mrr@10:0.1526
+recall@20:0.4842	 mrr@20:0.1615
+best_result----
+recall@10:0.3557	 mrr@10:0.1526	 epoch:10,10
+recall@20:0.4842	 mrr@20:0.1615	 epoch:10,10
+--------------------------------------
+epoch 11
+lr: 0.0001
+start training... 2022-04-14 16:27:20.207077
+	 train_loss : 23356.885
+this_epoch----
+recall@10:0.3575	 mrr@10:0.1542
+recall@20:0.4862	 mrr@20:0.1631
+best_result----
+recall@10:0.3575	 mrr@10:0.1542	 epoch:11,11
+recall@20:0.4862	 mrr@20:0.1631	 epoch:11,11
+--------------------------------------
+epoch 12
+lr: 0.0001
+start training... 2022-04-14 16:35:03.060727
+	 train_loss : 23260.527
+this_epoch----
+recall@10:0.3579	 mrr@10:0.1545
+recall@20:0.4872	 mrr@20:0.1634
+best_result----
+recall@10:0.3579	 mrr@10:0.1545	 epoch:12,12
+recall@20:0.4872	 mrr@20:0.1634	 epoch:12,12
+--------------------------------------
+epoch 13
+lr: 0.0001
+start training... 2022-04-14 16:42:50.900270
+	 train_loss : 23225.186
+this_epoch----
+recall@10:0.3582	 mrr@10:0.1548
+recall@20:0.4873	 mrr@20:0.1638
+best_result----
+recall@10:0.3582	 mrr@10:0.1548	 epoch:13,13
+recall@20:0.4873	 mrr@20:0.1638	 epoch:13,13
+--------------------------------------
+epoch 14
+lr: 0.0001
+start training... 2022-04-14 16:50:34.586191
+	 train_loss : 23213.020
+this_epoch----
+recall@10:0.3598	 mrr@10:0.1545
+recall@20:0.4892	 mrr@20:0.1635
+best_result----
+recall@10:0.3598	 mrr@10:0.1548	 epoch:14,13
+recall@20:0.4892	 mrr@20:0.1638	 epoch:14,13
+--------------------------------------
+epoch 15
+lr: 0.0001
+start training... 2022-04-14 16:58:12.986923
+	 train_loss : 23211.604
+this_epoch----
+recall@10:0.3587	 mrr@10:0.1551
+recall@20:0.4880	 mrr@20:0.1641
+best_result----
+recall@10:0.3598	 mrr@10:0.1551	 epoch:14,15
+recall@20:0.4892	 mrr@20:0.1641	 epoch:14,15
+--------------------------------------
+epoch 16
+lr: 0.0001
+start training... 2022-04-14 17:05:52.595952
+	 train_loss : 23216.586
+this_epoch----
+recall@10:0.3594	 mrr@10:0.1550
+recall@20:0.4883	 mrr@20:0.1639
+best_result----
+recall@10:0.3598	 mrr@10:0.1551	 epoch:14,15
+recall@20:0.4892	 mrr@20:0.1641	 epoch:14,15
+--------------------------------------
+epoch 17
+lr: 0.0001
+start training... 2022-04-14 17:13:28.071567
+	 train_loss : 23223.156
+this_epoch----
+recall@10:0.3596	 mrr@10:0.1551
+recall@20:0.4890	 mrr@20:0.1640
+best_result----
+recall@10:0.3598	 mrr@10:0.1551	 epoch:14,15
+recall@20:0.4892	 mrr@20:0.1641	 epoch:14,15
+--------------------------------------
+epoch 18
+lr: 0.0001
+start training... 2022-04-14 17:21:01.770582
+	 train_loss : 23230.215
+this_epoch----
+recall@10:0.3595	 mrr@10:0.1551
+recall@20:0.4896	 mrr@20:0.1641
+best_result----
+recall@10:0.3598	 mrr@10:0.1551	 epoch:14,15
+recall@20:0.4896	 mrr@20:0.1641	 epoch:18,15
+--------------------------------------
+epoch 19
+lr: 0.0001
+start training... 2022-04-14 17:28:38.125257
+	 train_loss : 23239.787
+this_epoch----
+recall@10:0.3606	 mrr@10:0.1551
+recall@20:0.4894	 mrr@20:0.1640
+best_result----
+recall@10:0.3606	 mrr@10:0.1551	 epoch:19,15
+recall@20:0.4896	 mrr@20:0.1641	 epoch:18,15
+--------------------------------------
+epoch 20
+lr: 1e-05
+start training... 2022-04-14 17:36:13.462599
+	 train_loss : 22922.771
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1552
+recall@20:0.4895	 mrr@20:0.1642
+best_result----
+recall@10:0.3606	 mrr@10:0.1552	 epoch:19,20
+recall@20:0.4896	 mrr@20:0.1642	 epoch:18,20
+--------------------------------------
+epoch 21
+lr: 1e-05
+start training... 2022-04-14 17:43:50.476811
+	 train_loss : 22916.184
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1552
+recall@20:0.4890	 mrr@20:0.1642
+best_result----
+recall@10:0.3606	 mrr@10:0.1552	 epoch:19,21
+recall@20:0.4896	 mrr@20:0.1642	 epoch:18,20
+--------------------------------------
+epoch 22
+lr: 1e-05
+start training... 2022-04-14 17:51:24.283816
+	 train_loss : 22912.961
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1554
+recall@20:0.4889	 mrr@20:0.1643
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,22
+recall@20:0.4896	 mrr@20:0.1643	 epoch:18,22
+--------------------------------------
+epoch 23
+lr: 1e-05
+start training... 2022-04-14 17:59:04.148300
+	 train_loss : 22911.943
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1553
+recall@20:0.4890	 mrr@20:0.1642
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,22
+recall@20:0.4896	 mrr@20:0.1643	 epoch:18,22
+--------------------------------------
+epoch 24
+lr: 1e-05
+start training... 2022-04-14 18:06:39.517147
+	 train_loss : 22911.602
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1554
+recall@20:0.4890	 mrr@20:0.1643
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,24
+recall@20:0.4896	 mrr@20:0.1643	 epoch:18,24
+--------------------------------------
+epoch 25
+lr: 1e-05
+start training... 2022-04-14 18:14:15.663600
+	 train_loss : 22911.842
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1554
+recall@20:0.4890	 mrr@20:0.1643
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,24
+recall@20:0.4896	 mrr@20:0.1643	 epoch:18,24
+--------------------------------------
+epoch 26
+lr: 1e-05
+start training... 2022-04-14 18:21:52.123514
+	 train_loss : 22912.586
+this_epoch----
+recall@10:0.3602	 mrr@10:0.1554
+recall@20:0.4891	 mrr@20:0.1644
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,26
+recall@20:0.4896	 mrr@20:0.1644	 epoch:18,26
+--------------------------------------
+epoch 27
+lr: 1e-05
+start training... 2022-04-14 18:29:29.373660
+	 train_loss : 22913.375
+this_epoch----
+recall@10:0.3600	 mrr@10:0.1554
+recall@20:0.4892	 mrr@20:0.1644
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,26
+recall@20:0.4896	 mrr@20:0.1644	 epoch:18,27
+--------------------------------------
+epoch 28
+lr: 1e-05
+start training... 2022-04-14 18:36:47.993662
+	 train_loss : 22914.527
+this_epoch----
+recall@10:0.3601	 mrr@10:0.1554
+recall@20:0.4892	 mrr@20:0.1643
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,26
+recall@20:0.4896	 mrr@20:0.1644	 epoch:18,27
+--------------------------------------
+epoch 29
+lr: 1e-05
+start training... 2022-04-14 18:40:40.635780
+	 train_loss : 22915.781
+this_epoch----
+recall@10:0.3601	 mrr@10:0.1554
+recall@20:0.4890	 mrr@20:0.1643
+best_result----
+recall@10:0.3606	 mrr@10:0.1554	 epoch:19,26
+recall@20:0.4896	 mrr@20:0.1644	 epoch:18,27
+Done
